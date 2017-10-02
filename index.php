@@ -1,10 +1,7 @@
 <?php
-for ($i=0; $i <= 100; $i++)
+for ($i=1; $i <= 100; $i++)
 {
-  if ($i==0){
-     echo $i. "<br/>";
-   }
-  else if ($i%3==0 & $i%5==0){
+ if ($i%3==0 & $i%5==0){
       echo "fizzbuzz <br/>";
   }
   else if ($i%3==0){
